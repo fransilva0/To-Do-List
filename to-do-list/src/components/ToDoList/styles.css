@@ -1,0 +1,78 @@
+#todo-list {
+  max-width: 1200px;
+  margin: 30px;
+}
+
+#todo-list form {
+  display: flex;
+  margin-top: 30px;
+}
+
+#todo-list form input {
+  flex: 1;
+  margin-right: 10px;
+  border: none;
+  height: 30px;
+  background-color: #e1e3ac61;
+  border-radius: 0.5rem;
+}
+
+#todo-list form button {
+  cursor: pointer;
+  background-color: #e1e3ac61;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: #648a64;
+}
+
+#todo-list form button:hover {
+  background-color: transparent;
+  border: 1px solid #648a64;
+}
+
+#todo-list .lista-de-tarefas {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#todo-list .lista-de-tarefas li {
+  width: 100%;
+  border: 1px solid #a6b985;
+  margin-bottom: 6px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+
+  display: flex;
+  align-items: center;
+}
+
+#todo-list .lista-de-tarefas li span {
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+}
+
+#todo-list .lista-de-tarefas li span.tarefa-concluida {
+  text-decoration: line-through;
+}
+
+#todo-list .lista-de-tarefas li input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+
+  margin-right: 10px;
+}
+
+#todo-list .lista-de-tarefas li button {
+  margin-left: auto;
+  font-weight: 600;
+  color: #46685b;
+  font-size: 0.7rem;
+  background-color: #e1e3ac;
+  border: none;
+  padding: 4px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}

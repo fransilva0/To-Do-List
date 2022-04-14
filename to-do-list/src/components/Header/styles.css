@@ -7,11 +7,8 @@
 
 #header #navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 #header #navbar .brand {
@@ -33,7 +30,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-right: 18px;
+  margin: 0 18px;
 }
 
 #header #navbar .right-side .profile .name {
@@ -43,5 +40,5 @@
 
 #header #navbar .right-side .profile .welcome-message {
   font-size: 0.7rem;
-  color: rgb(232, 230, 230);
+  color: #e1e3ac;
 }
