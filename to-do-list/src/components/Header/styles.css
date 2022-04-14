@@ -1,0 +1,47 @@
+#header {
+  background-color: #a6b985;
+  color: #213435;
+  padding: 0.5rem 4rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#header #navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#header #navbar .brand {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#header #navbar .brand span {
+  color: #e1e3ac;
+}
+
+#header #navbar .right-side {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+#header #navbar .right-side img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+
+#header #navbar .right-side .profile .name {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+#header #navbar .right-side .profile .welcome-message {
+  font-size: 0.7rem;
+  color: rgb(232, 230, 230);
+}
