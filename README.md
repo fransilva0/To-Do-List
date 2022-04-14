@@ -11,13 +11,13 @@
  
 <p align='center'>
  
-<img alt='Principal linguagem do projeto' src='https://img.shields.io/github/languages/top/{{github}}/{{repository}}?color=56BEB8'>
+<img alt='Principal linguagem do projeto' src='https://img.shields.io/github/languages/top/fransilva0/To-Do-List?color=56BEB8'>
  
-<img alt='Quantidade de linguagens utilizadas' src='https://img.shields.io/github/languages/count/{{github}}/{{repository}}?color=56BEB8'>
+<img alt='Quantidade de linguagens utilizadas' src='https://img.shields.io/github/languages/count/fransilva0/To-Do-List?color=56BEB8'>
  
-<img alt='Tamanho do repositório' src='https://img.shields.io/github/repo-size/{{github}}/{{repository}}?color=56BEB8'>
+<img alt='Tamanho do repositório' src='https://img.shields.io/github/repo-size/fransilva0/To-Do-List?color=56BEB8'>
  
-<img alt='Licença' src='https://img.shields.io/github/license/{{github}}/{{repository}}?color=56BEB8'>
+<img alt='Licença' src='https://img.shields.io/github/license/fransilva0/To-Do-List?color=56BEB8'>
 
 </p>
  
@@ -28,7 +28,7 @@
 <a href='#white_check_mark-pré-requesitos'>Pré requisitos</a> &#xa0; | &#xa0;
 <a href='#checkered_flag-começando'>Começando</a> &#xa0; | &#xa0;
 <a href='#memo-licença'>Licença</a> &#xa0; | &#xa0;
-<a href='https://github.com/{{github}}' target='_blank'>Autor</a>
+<a href='https://github.com/fransilva0' target='_blank'>Autor</a>
 </p>
  
 <br>
@@ -64,10 +64,10 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
  
 ```bash
 # Clone este repositório
-$ git clone https://github.com/{{github}}/{{repository}}
+$ git clone https://github.com/fransilva0/To-Do-List
  
 # Entre na pasta
-$ cd {{repository}}
+$ cd To-Do-List
  
 # Instale as dependências
 $ yarn
